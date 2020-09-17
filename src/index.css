@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.post {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 15 px;
+  padding-right: 15 px;
+  padding-bottom: 10px;
+  position: relative;
+  width: 630px;
+  height: 360px;
+  background: rgb(0, 0, 0);
+  mix-blend-mode: normal;
+  border: 1px ;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+.avatar{
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  top:10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  background: #C4C4C4;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+.nickname{
+  color: ghostwhite;
+  opacity: 50%;
+  }
+.date{
+  color: ghostwhite;
+  opacity: 50%;
+  }
+.name {
+  color: rosybrown;
+  border-bottom-color:rgb(0, 0, 0);
+  border-bottom-style:solid;
+  border-image-repeat:stretch;
+  border-image-slice:100%;
+  border-image-width:1;
+  box-sizing:border-box;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  display:inline;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size:15px;
+  height: auto;
+  line-height:19.6875px;
+  pointer-events:auto;
+  text-align:start;
+  text-size-adjust:100%;
+  white-space:nowrap;
+  width: auto;
+}
+.image{
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background: #F46D6D;
+  border-radius: 30px;
+  margin-left: 100px;
+  }
+.content{
+  padding-bottom: 10px;
+  border-bottom-color:rgb(0, 0, 0);
+  border-bottom-style:solid;
+  border-image-repeat:stretch;
+  box-sizing:border-box;
+  color:rgb(255, 255, 255);
+  display:inline;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size:23px;
+  font-weight:400;
+  height:auto;
+  line-height:30.1875px;
+  pointer-events:auto;
+  text-size-adjust:100%;
+  white-space:pre-wrap;
+  width: auto;
+  -webkit-box-direction:normal;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
