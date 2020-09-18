@@ -18,7 +18,7 @@ const postList = [
             date:"26 февр.",
 },
 {
-  name: "Cirilla",
+  name: "Cirilla77",
   photo: WITHCER_IMAGE,
   nickname: "@falka",
   content:"Do you really wish to know?",
