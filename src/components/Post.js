@@ -4,7 +4,7 @@ import React from "react";
 const Post =(props) =>{
     return (
         <div className="post">
-            <img className="avatar" src={props.photo} alt='huina'></img>
+            <img className="avatar" src={props.photo} alt='avatar-img'></img>
             <span className="name">{props.name} </span>
             <span className="nickname"> {props.nickname} • </span>
             <span className="date">{props.date}</span><br/>
